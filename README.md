@@ -30,7 +30,7 @@ Result: whichever provider pi resolves to, it finds working credentials.
 
 ```bash
 # Clone or download
-git clone https://github.com/YOUR_USER/pi-fix-subagent-provider.git
+git clone https://github.com/takereshui/pi-fix-subagent-provider.git
 
 # Copy to pi extensions directory
 cp pi-fix-subagent-provider/fix-subagent-provider.ts ~/.pi/agent/extensions/
@@ -39,7 +39,7 @@ cp pi-fix-subagent-provider/fix-subagent-provider.ts ~/.pi/agent/extensions/
 Or one-liner:
 ```bash
 curl -o ~/.pi/agent/extensions/fix-subagent-provider.ts \
-  https://raw.githubusercontent.com/YOUR_USER/pi-fix-subagent-provider/main/fix-subagent-provider.ts
+  https://raw.githubusercontent.com/takereshui/pi-fix-subagent-provider/main/fix-subagent-provider.ts
 ```
 
 Then `/reload` in pi (or restart).
